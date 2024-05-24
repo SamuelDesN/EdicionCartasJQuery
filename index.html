@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Clientes</title>
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <div>
+            <div class="menu">
+                <h1>Clientes</h1>
+            </div>
+            <div id="buscar">
+                <input type="text" id="buscarPersona" placeholder="Introduce un nombre...">
+                <button id="boton">Buscar</button>
+                <button id="botonUsuario">Agregar Usuario</button>
+            </div>
+            <div id="agregar" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Agregar Usuario</h2>
+                    <input type="text" id="nuevoNombre" placeholder="Nombre">
+                    <input type="text" id="nuevoApellido" placeholder="Apellido">
+                    <input type="text" id="nuevaDesc" placeholder="Descripción">
+                    <button id="botonAgregar">Agregar</button>
+                </div>
+            </div>
+            <div id="personas">        
+            </div>
+        </div>
+        <footer class="pie">&copy 2024. Samuel</footer>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
